@@ -1,5 +1,16 @@
 # Release Notes
 
+## v0.1.1 — Trained Checkpoint (VPS)
+
+**Date:** 2026-11-06
+
+### Added
+- Trained model checkpoint `models/emotion_model3.pt` (35,570 bytes).
+- 6-emotion classifier (happy, sad, curious, concern, frustrated, relieved).
+- Training: 120 synthetic samples, 30 epochs, test accuracy 16/18, overall 118/120.
+
+---
+
 ## v0.1.0 — EFA Core 0.1 (First Public Release)
 
 **Date:** 2026-11-06
