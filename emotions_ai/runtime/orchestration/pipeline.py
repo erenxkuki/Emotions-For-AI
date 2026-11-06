@@ -16,6 +16,7 @@ from emotions_ai.core.response.expression import ResponseExpressionEngine
 from emotions_ai.core.state.events import Experience
 from emotions_ai.core.state.schema import StateCollection
 from emotions_ai.core.temporal_evolution.engine import DefaultTemporalEvolutionEngine
+from emotions_ai.memory.fusion.engine import MemoryFusionEngine
 from emotions_ai.memory.manager import MemoryManager
 from emotions_ai.runtime.adapters.base import ModelAdapter
 from emotions_ai.runtime.sessions.manager import SessionManager
@@ -66,6 +67,7 @@ class Pipeline:
     ) -> None:
         self.adapter = adapter
         self.memory = memory
+        self.fusion = MemoryFusionEngine(memory)
         self.sessions = sessions
         self.common_sense = common_sense or HeuristicCommonSenseEngine()
         self.cognition = cognition or HeuristicCognitiveEngine()
@@ -93,8 +95,8 @@ class Pipeline:
         # temporal update since last interaction
         self.temporal.apply_time(collection, now)
 
-        # retrieve memories
-        memories = self.memory.retrieve(user_id, message, session_id=None, top_k=5)
+        # retrieve fused memories (LLM turns + emotional/experience)
+        memories = self.fusion.retrieve_fused(user_id, message, session_id=None, top_k=5)
         mem_dicts = [{"memory_id": m.memory_id, "content": m.content, "type": m.memory_type} for m in memories]
         history = [{"role": "user", "content": m.content} for m in memories]  # lightweight
 
@@ -130,22 +132,17 @@ class Pipeline:
 
         # build messages for model
         messages = [{"role": "system", "content": system_prompt}]
-        for m in memories[-3:]:
-            messages.append({"role": "assistant" if False else "system", "content": f"Relevant memory: {m.content}"})
+        fused_context = self.fusion.build_context(memories)
+        if fused_context:
+            messages.append({"role": "system", "content": f"Fused memory context:\n{fused_context}"})
         messages.append({"role": "user", "content": message})
 
         # generate
         text = await self.adapter.generate(messages, temperature=temperature, max_tokens=max_tokens)
 
-        # store memory (experience) if not sensitive? policy handles
-        self.memory.add(
-            user_id=user_id,
-            session_id=session_id,
-            content=f"User: {message}",
-            memory_type="experience",
-            importance=resonance.significance,
-            metadata={"context_id": context_id},
-        )
+        # store LLM turns (fused memory)
+        self.fusion.add_turn(user_id=user_id, session_id=session_id, role="user", content=message, importance=resonance.significance)
+        self.fusion.add_turn(user_id=user_id, session_id=session_id, role="assistant", content=text, importance=0.3)
         # store emotional memory summary
         self.memory.add(
             user_id=user_id,
