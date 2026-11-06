@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-32%20passing-brightgreen.svg)](#validation)
+[![Tests](https://img.shields.io/badge/tests-34%20passing-brightgreen.svg)](#validation)
 [![Status](https://img.shields.io/badge/status-EFA%20Core%200.1-orange.svg)](#roadmap)
 
 > **An experimental, model-independent emotional intelligence framework for AI systems.**
@@ -94,7 +94,7 @@ between:
 │  ├── Emotion Regulation Engine                             │
 │  └── Response Expression Engine                             │
 ├─────────────────────────────────────────────────────────────┤
-│  Memory System (EMS): experience · emotional · contextual  │
+│  Memory System (EMS): experience · emotional · contextual · LLM-turn fusion  │
 ├─────────────────────────────────────────────────────────────┤
 │  State Layer: versioned schemas · persistence · history     │
 └─────────────────────────────────────────────────────────────┘
@@ -216,7 +216,7 @@ server. It provides:
 ## Validation
 
 ```bash
-pytest                    # 32 tests
+pytest                    # 34 tests
 python scripts/verify_install.py
 python scripts/benchmark.py
 ```
@@ -231,13 +231,15 @@ and property-based randomized tests.
 emotions-for-ai/
 ├── emotions_ai/
 │   ├── core/          # shared state + engines (no LLM dependency)
-│   ├── memory/        # storage, retrieval, policy
+│   ├── memory/        # storage, retrieval, policy, fusion
 │   ├── runtime/       # adapters, sessions, orchestration, facade
 │   ├── training/      # native training integration (Phase 7)
 │   ├── api/           # FastAPI app + dashboard
 │   ├── simulation/    # temporal simulation tools
 │   ├── evaluation/    # benchmarks and tasks
 │   └── plugins/       # extensibility
+├── data/              # emotion database (JSONL)
+├── models/            # trained checkpoints
 ├── tests/
 ├── docs/
 ├── scripts/
@@ -247,6 +249,15 @@ emotions-for-ai/
 ├── LICENSE
 └── DEVELOPMENT_STATUS.md
 ```
+
+## Recent Additions
+
+- **Memory Fusion** — LLM conversation turns are unified with emotional/experience memory
+  (`emotions_ai.memory.fusion.MemoryFusionEngine`), enriching prompt context.
+- **Emotion Database** — bundled synthetic dataset of 600 labeled samples
+  (`data/emotions_db.jsonl`) with loader `load_emotion_db()`.
+- **Trained Checkpoint** — `models/emotion_model3.pt` (6-emotion classifier trained on VPS).
+- **Research Dashboard** — `/dashboard`, `/simulate`, `/state/{user}/timeline`.
 
 ## Documentation
 

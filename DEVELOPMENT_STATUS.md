@@ -15,7 +15,10 @@
 - Runtime facade, sessions, adapters (echo, OpenAI-compatible).
 - Orchestration pipeline.
 - FastAPI app.
-- Tests (29 passing).
+- Tests (34 passing).
+- Memory fusion: LLM turns unified with emotional memory.
+- Emotion database: 600 samples + loader.
+- Trained checkpoint: models/emotion_model3.pt.
 - Phase 7 native training scaffolding: EmotionConfig, dataset formats, objectives, optional torch heads, transformers integration, evaluation tasks.
 - Phase 8 research dashboard: /dashboard, /simulate, /state/{user}/timeline endpoints + HTML/JS UI.
 - Phase 9 validation: property-based randomized tests, benchmark script, install verifier, security audit doc.
