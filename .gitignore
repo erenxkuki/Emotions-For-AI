@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# DBs / local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Temp
+*.tar.gz
+upload_chunks.py
+upload2.py
+test_chunk.py
+test_chunk2.py
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Emotions for AI — Research Dashboard</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 24px; color: #222; }
+  h1 { font-size: 20px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { border-bottom: 1px solid #eee; padding: 6px; text-align: left; }
+  pre { background: #f7f7f7; padding: 8px; border-radius: 6px; overflow: auto; max-height: 240px; }
+  input, button { padding: 6px 10px; }
+  .row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<h1>Emotions for AI — Research Dashboard</h1>
+<div class="row">
+  <label>User ID: <input id="uid" value="user_001" /></label>
+  <label>Session: <input id="sid" value="default" /></label>
+  <button onclick="refresh()">Refresh</button>
+  <button onclick="simulate()">Simulate 1h</button>
+</div>
+<div class="grid">
+  <div class="card">
+    <h3>Current State</h3>
+    <div id="current"></div>
+  </div>
+  <div class="card">
+    <h3>State History</h3>
+    <pre id="history"></pre>
+  </div>
+  <div class="card">
+    <h3>Timeline (simulation)</h3>
+    <pre id="timeline"></pre>
+  </div>
+  <div class="card">
+    <h3>Engine Diagnostics</h3>
+    <pre id="diag"></pre>
+  </div>
+</div>
+<script>
+async function api(path, opts) { const r = await fetch(path, opts); return r.json(); }
+async function refresh() {
+  const u = document.getElementById('uid').value;
+  const s = document.getElementById('sid').value;
+  const st = await api(`/state/${u}?session_id=${s}`);
+  let html = '<table><tr><th>Emotion</th><th>Intensity</th><th>Valence</th><th>Arousal</th><th>Relevance</th><th>Policy</th></tr>';
+  (st.active || []).forEach(x => {
+    html += `<tr><td>${x.emotion}</td><td>${x.intensity.toFixed(3)}</td><td>${x.valence.toFixed(2)}</td><td>${x.arousal.toFixed(2)}</td><td>${x.relevance.toFixed(2)}</td><td>${x.persistence_policy}</td></tr>`;
+  });
+  html += '</table>';
+  document.getElementById('current').innerHTML = html + `<p>Total states: ${st.state_count}</p>`;
+  const h = await api(`/state/${u}/history?session_id=${s}`);
+  document.getElementById('history').textContent = JSON.stringify(h, null, 2);
+  document.getElementById('diag').textContent = JSON.stringify(st, null, 2);
+}
+async function simulate() {
+  const u = document.getElementById('uid').value;
+  const s = document.getElementById('sid').value;
+  const r = await fetch(`/simulate`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({user_id:u, session_id:s, duration_seconds:3600, step_seconds:300})});
+  const t = await r.json();
+  document.getElementById('timeline').textContent = JSON.stringify(t, null, 2);
+}
+refresh();
+</script>
+</body>
+</html>
