@@ -1,0 +1,600 @@
+{"text": "I am concerned for the news", "label": "concern"}
+{"text": "I feel sad and lost", "label": "sad"}
+{"text": "I am worried and anxious", "label": "concern"}
+{"text": "I am annoyed and angry", "label": "frustrated"}
+{"text": "I feel forlorn and lost", "label": "sad"}
+{"text": "Everything is going well", "label": "happy"}
+{"text": "I am so glad about the delay", "label": "happy"}
+{"text": "I am worried and anxious", "label": "concern"}
+{"text": "Tell me how the result works", "label": "curious"}
+{"text": "This is so annoying and irritating", "label": "frustrated"}
+{"text": "I am worried and tense", "label": "concern"}
+{"text": "I am anxious and nervous", "label": "concern"}
+{"text": "I am worried and anxious", "label": "concern"}
+{"text": "I feel miserable and alone", "label": "sad"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "This makes me angry", "label": "frustrated"}
+{"text": "I am concerned for the plan", "label": "concern"}
+{"text": "I am upset and frustrated", "label": "frustrated"}
+{"text": "I am really pleased with the delay", "label": "happy"}
+{"text": "I wonder if the delay is true", "label": "curious"}
+{"text": "I am curious and engaged", "label": "curious"}
+{"text": "I have a question about the result", "label": "curious"}
+{"text": "I feel sad and lost", "label": "sad"}
+{"text": "I wonder if the outcome is true", "label": "curious"}
+{"text": "I am fascinated by the situation", "label": "curious"}
+{"text": "I feel calm and relieved", "label": "relieved"}
+{"text": "I am melancholic and sad", "label": "sad"}
+{"text": "I feel concerned and afraid", "label": "concern"}
+{"text": "I feel apprehensive about the news", "label": "concern"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I feel wretched and unhappy", "label": "sad"}
+{"text": "I am frustrated and angry", "label": "frustrated"}
+{"text": "I am frustrated with the result", "label": "frustrated"}
+{"text": "I am thrilled with the result", "label": "happy"}
+{"text": "I am sad and disappointed", "label": "sad"}
+{"text": "I feel forlorn and lost", "label": "sad"}
+{"text": "Why does this keep failing", "label": "frustrated"}
+{"text": "I feel sorrowful and tired", "label": "sad"}
+{"text": "This is the best news", "label": "happy"}
+{"text": "I am relieved about the exam", "label": "relieved"}
+{"text": "I am worried and tense", "label": "concern"}
+{"text": "I am curious and engaged", "label": "curious"}
+{"text": "I am intrigued by the delay", "label": "curious"}
+{"text": "I feel uneasy and tense", "label": "concern"}
+{"text": "I am inquisitive and interested", "label": "curious"}
+{"text": "I am downcast and gloomy", "label": "sad"}
+{"text": "I am irritated and annoyed", "label": "frustrated"}
+{"text": "This is wonderful news about the result", "label": "happy"}
+{"text": "What a fantastic outcome for my work", "label": "happy"}
+{"text": "I feel relieved and relaxed", "label": "relieved"}
+{"text": "I feel amazing right now", "label": "happy"}
+{"text": "Thank goodness that ended well", "label": "relieved"}
+{"text": "I am smiling and content", "label": "happy"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I finally the news and feel great", "label": "happy"}
+{"text": "I am anxious about the mistake", "label": "concern"}
+{"text": "I am unhappy about my work", "label": "sad"}
+{"text": "I want to investigate the situation", "label": "curious"}
+{"text": "I am questioning and exploring", "label": "curious"}
+{"text": "I am uneasy and worried", "label": "concern"}
+{"text": "I feel wretched and unhappy", "label": "sad"}
+{"text": "I am annoyed and angry", "label": "frustrated"}
+{"text": "I am so glad about the mistake", "label": "happy"}
+{"text": "I am eager to learn more", "label": "curious"}
+{"text": "I finally the result and feel great", "label": "happy"}
+{"text": "I am relieved and happy", "label": "relieved"}
+{"text": "I feel amazing right now", "label": "happy"}
+{"text": "I feel relieved and okay", "label": "relieved"}
+{"text": "I am so happy about the delay", "label": "happy"}
+{"text": "I feel concerned and afraid", "label": "concern"}
+{"text": "I feel blessed and happy", "label": "happy"}
+{"text": "I am glad the mistake is over", "label": "relieved"}
+{"text": "I am upset about the situation", "label": "frustrated"}
+{"text": "I feel concerned and afraid", "label": "concern"}
+{"text": "This is so annoying and irritating", "label": "frustrated"}
+{"text": "I am struggling lately", "label": "sad"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "This made my day better", "label": "happy"}
+{"text": "I feel forlorn and lost", "label": "sad"}
+{"text": "I am relieved and content", "label": "relieved"}
+{"text": "I am really pleased with the exam", "label": "happy"}
+{"text": "I am delighted and grateful", "label": "happy"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I feel uneasy about the project", "label": "concern"}
+{"text": "I am angry at the delay", "label": "frustrated"}
+{"text": "I feel joyful and excited", "label": "happy"}
+{"text": "I am depressed and sad", "label": "sad"}
+{"text": "I want to understand the mistake", "label": "curious"}
+{"text": "This is wonderful news about the outcome", "label": "happy"}
+{"text": "I am disappointed and tired", "label": "sad"}
+{"text": "I am anxious about the result", "label": "concern"}
+{"text": "I am frustrated and irritated", "label": "frustrated"}
+{"text": "I feel apprehensive about the outcome", "label": "concern"}
+{"text": "This is so annoying and irritating", "label": "frustrated"}
+{"text": "I am angry and upset", "label": "frustrated"}
+{"text": "I am grieving and sorrowful", "label": "sad"}
+{"text": "How does this mechanism function", "label": "curious"}
+{"text": "I am despondent about the delay", "label": "sad"}
+{"text": "I feel better now", "label": "relieved"}
+{"text": "I am eager to learn more", "label": "curious"}
+{"text": "This is the best news", "label": "happy"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "I am downcast and gloomy", "label": "sad"}
+{"text": "I feel blessed and happy", "label": "happy"}
+{"text": "I am worried about the situation", "label": "concern"}
+{"text": "This makes me a bit fearful", "label": "concern"}
+{"text": "I want to know more about the outcome", "label": "curious"}
+{"text": "I am so happy about the situation", "label": "happy"}
+{"text": "I am concerned and watchful", "label": "concern"}
+{"text": "I am interested in the exam", "label": "curious"}
+{"text": "I am anxious about the plan", "label": "concern"}
+{"text": "I feel sorrowful and tired", "label": "sad"}
+{"text": "I am relieved it is finally over", "label": "relieved"}
+{"text": "Great success today with the project", "label": "happy"}
+{"text": "I am glad it worked out", "label": "relieved"}
+{"text": "I am curious about how this works", "label": "curious"}
+{"text": "I am frustrated that it broke again", "label": "frustrated"}
+{"text": "This is the best news", "label": "happy"}
+{"text": "This is so frustrating", "label": "frustrated"}
+{"text": "I am worried and watchful", "label": "concern"}
+{"text": "I feel calm and relieved", "label": "relieved"}
+{"text": "I am afraid of failing", "label": "concern"}
+{"text": "I have a question about the delay", "label": "curious"}
+{"text": "I feel sorrowful and tired", "label": "sad"}
+{"text": "Thank goodness that ended well", "label": "relieved"}
+{"text": "I feel relieved and okay", "label": "relieved"}
+{"text": "I am relieved and at peace", "label": "relieved"}
+{"text": "This is infuriating and annoying", "label": "frustrated"}
+{"text": "I am afraid of failing", "label": "concern"}
+{"text": "I am angry and upset", "label": "frustrated"}
+{"text": "This makes me angry", "label": "frustrated"}
+{"text": "I finally the exam and feel great", "label": "happy"}
+{"text": "I feel at ease now", "label": "relieved"}
+{"text": "I am concerned and watchful", "label": "concern"}
+{"text": "This makes me angry", "label": "frustrated"}
+{"text": "That was a close call but okay", "label": "relieved"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I am relieved and at peace", "label": "relieved"}
+{"text": "I feel dejected and low", "label": "sad"}
+{"text": "Thank goodness that ended well", "label": "relieved"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am anxious about the exam", "label": "concern"}
+{"text": "I feel joyful and excited", "label": "happy"}
+{"text": "That was a close call but okay", "label": "relieved"}
+{"text": "What a fantastic outcome for the plan", "label": "happy"}
+{"text": "This is infuriating and annoying", "label": "frustrated"}
+{"text": "I am annoyed and upset", "label": "frustrated"}
+{"text": "I am frustrated and irritated", "label": "frustrated"}
+{"text": "I am worried and anxious", "label": "concern"}
+{"text": "I am irritated by the delay", "label": "frustrated"}
+{"text": "I am grieving and sorrowful", "label": "sad"}
+{"text": "I am uneasy and worried", "label": "concern"}
+{"text": "I am intrigued by the situation", "label": "curious"}
+{"text": "I feel relieved and relaxed", "label": "relieved"}
+{"text": "I am curious about the details", "label": "curious"}
+{"text": "I feel relieved and calm", "label": "relieved"}
+{"text": "I am interested in the delay", "label": "curious"}
+{"text": "Everything feels difficult and heavy", "label": "sad"}
+{"text": "I am intrigued by the result", "label": "curious"}
+{"text": "I am upset about my work", "label": "frustrated"}
+{"text": "I feel lonely and down", "label": "sad"}
+{"text": "I am frustrated and angry", "label": "frustrated"}
+{"text": "I feel relieved and okay", "label": "relieved"}
+{"text": "I feel miserable and alone", "label": "sad"}
+{"text": "I feel wretched and unhappy", "label": "sad"}
+{"text": "I am frustrated with the plan", "label": "frustrated"}
+{"text": "I am disappointed and tired", "label": "sad"}
+{"text": "I wonder what happened", "label": "curious"}
+{"text": "I feel amazing right now", "label": "happy"}
+{"text": "I am nervous and uneasy", "label": "concern"}
+{"text": "I feel blue and weary", "label": "sad"}
+{"text": "Why does this keep failing", "label": "frustrated"}
+{"text": "I am heartbroken about the plan", "label": "sad"}
+{"text": "I wonder what happened", "label": "curious"}
+{"text": "I am glad it worked out", "label": "relieved"}
+{"text": "I am afraid of failing", "label": "concern"}
+{"text": "I feel dejected and low", "label": "sad"}
+{"text": "I am relieved about the project", "label": "relieved"}
+{"text": "I am interested in the exam", "label": "curious"}
+{"text": "I am irritated by the result", "label": "frustrated"}
+{"text": "I am glad the plan is over", "label": "relieved"}
+{"text": "This is so frustrating", "label": "frustrated"}
+{"text": "I am relieved and grateful", "label": "relieved"}
+{"text": "I am frustrated with the result", "label": "frustrated"}
+{"text": "I am irritated and annoyed", "label": "frustrated"}
+{"text": "I am frustrated and angry", "label": "frustrated"}
+{"text": "I am nervous and uneasy", "label": "concern"}
+{"text": "I am disappointed and tired", "label": "sad"}
+{"text": "I feel hopeless and empty", "label": "sad"}
+{"text": "I have a question about the outcome", "label": "curious"}
+{"text": "I am really pleased with the news", "label": "happy"}
+{"text": "This made my day better", "label": "happy"}
+{"text": "I am struggling lately", "label": "sad"}
+{"text": "Great success today with the news", "label": "happy"}
+{"text": "I am relieved and content", "label": "relieved"}
+{"text": "I am anxious and nervous", "label": "concern"}
+{"text": "I am interested in the outcome", "label": "curious"}
+{"text": "I am relieved and happy", "label": "relieved"}
+{"text": "I want to explore this idea", "label": "curious"}
+{"text": "I am annoyed and upset", "label": "frustrated"}
+{"text": "This makes me a bit fearful", "label": "concern"}
+{"text": "I am glad it worked out", "label": "relieved"}
+{"text": "I wonder if the plan is true", "label": "curious"}
+{"text": "I am angry at the delay", "label": "frustrated"}
+{"text": "I am frustrated that it broke again", "label": "frustrated"}
+{"text": "I am really pleased with the outcome", "label": "happy"}
+{"text": "I am melancholic and sad", "label": "sad"}
+{"text": "I am frustrated with the project", "label": "frustrated"}
+{"text": "I am struggling lately", "label": "sad"}
+{"text": "I am nervous and uneasy", "label": "concern"}
+{"text": "I am worried and tense", "label": "concern"}
+{"text": "I feel relieved and calm", "label": "relieved"}
+{"text": "I am frustrated that it broke again", "label": "frustrated"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "This is wonderful news about the project", "label": "happy"}
+{"text": "I finally the result and feel great", "label": "happy"}
+{"text": "I feel relieved and safe", "label": "relieved"}
+{"text": "I am in a great mood", "label": "happy"}
+{"text": "I am fascinated by my work", "label": "curious"}
+{"text": "I am concerned for the outcome", "label": "concern"}
+{"text": "I feel uneasy and tense", "label": "concern"}
+{"text": "I am glad the mistake is over", "label": "relieved"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I feel forlorn and lost", "label": "sad"}
+{"text": "I am angry and frustrated", "label": "frustrated"}
+{"text": "I am thrilled with the result", "label": "happy"}
+{"text": "I feel blessed and happy", "label": "happy"}
+{"text": "I am fascinated by the project", "label": "curious"}
+{"text": "I feel miserable and alone", "label": "sad"}
+{"text": "I want to know more about the delay", "label": "curious"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am glad the project is over", "label": "relieved"}
+{"text": "I feel calm and relieved", "label": "relieved"}
+{"text": "I feel concerned about the situation", "label": "concern"}
+{"text": "I feel amazing right now", "label": "happy"}
+{"text": "I am despondent about the news", "label": "sad"}
+{"text": "I have a question about the plan", "label": "curious"}
+{"text": "I feel calm and relieved", "label": "relieved"}
+{"text": "I am curious about how this works", "label": "curious"}
+{"text": "I feel uneasy and tense", "label": "concern"}
+{"text": "I feel concerned and tense", "label": "concern"}
+{"text": "I feel concerned and tense", "label": "concern"}
+{"text": "I feel sorrowful and tired", "label": "sad"}
+{"text": "I am relieved and at peace", "label": "relieved"}
+{"text": "I am frustrated that it broke again", "label": "frustrated"}
+{"text": "I am disappointed and tired", "label": "sad"}
+{"text": "I feel uneasy about the result", "label": "concern"}
+{"text": "I am concerned for the result", "label": "concern"}
+{"text": "I am glad it worked out", "label": "relieved"}
+{"text": "I am melancholic and sad", "label": "sad"}
+{"text": "I am curious about how this works", "label": "curious"}
+{"text": "Everything feels difficult and heavy", "label": "sad"}
+{"text": "I am worried and watchful", "label": "concern"}
+{"text": "I am so glad about the situation", "label": "happy"}
+{"text": "I am unhappy about my work", "label": "sad"}
+{"text": "I am curious about the details", "label": "curious"}
+{"text": "Tell me more about it", "label": "curious"}
+{"text": "This is so annoying and irritating", "label": "frustrated"}
+{"text": "I feel blessed and happy", "label": "happy"}
+{"text": "Thank goodness that ended well", "label": "relieved"}
+{"text": "I want to explore this idea", "label": "curious"}
+{"text": "I am anxious about the delay", "label": "concern"}
+{"text": "I am relieved and grateful", "label": "relieved"}
+{"text": "I am upset and frustrated", "label": "frustrated"}
+{"text": "I am upset about the news", "label": "frustrated"}
+{"text": "I am downcast and gloomy", "label": "sad"}
+{"text": "Tell me more about it", "label": "curious"}
+{"text": "I am unhappy about the result", "label": "sad"}
+{"text": "Why does this keep failing", "label": "frustrated"}
+{"text": "I am worried and watchful", "label": "concern"}
+{"text": "I am smiling and content", "label": "happy"}
+{"text": "I am angry and frustrated", "label": "frustrated"}
+{"text": "I am relieved it is finally over", "label": "relieved"}
+{"text": "I feel concerned about the situation", "label": "concern"}
+{"text": "I feel relieved and calm", "label": "relieved"}
+{"text": "I am relieved about my work", "label": "relieved"}
+{"text": "I am glad it worked out", "label": "relieved"}
+{"text": "Why does this keep failing", "label": "frustrated"}
+{"text": "I am fascinated by the situation", "label": "curious"}
+{"text": "I am so happy about the result", "label": "happy"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I feel hopeless and empty", "label": "sad"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am sad and disappointed", "label": "sad"}
+{"text": "I want to investigate my work", "label": "curious"}
+{"text": "I wonder if the exam is true", "label": "curious"}
+{"text": "How does this mechanism function", "label": "curious"}
+{"text": "I am irritated by my work", "label": "frustrated"}
+{"text": "I am depressed and sad", "label": "sad"}
+{"text": "How does this mechanism function", "label": "curious"}
+{"text": "I am afraid of failing", "label": "concern"}
+{"text": "I am relieved and content", "label": "relieved"}
+{"text": "I feel concerned and afraid", "label": "concern"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "I am upset about the exam", "label": "frustrated"}
+{"text": "I feel concerned and tense", "label": "concern"}
+{"text": "This is wonderful news about the situation", "label": "happy"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I want to know more about the result", "label": "curious"}
+{"text": "I feel concerned about the situation", "label": "concern"}
+{"text": "I am irritated and annoyed", "label": "frustrated"}
+{"text": "I am relieved and at peace", "label": "relieved"}
+{"text": "I feel concerned about the situation", "label": "concern"}
+{"text": "I am angry at the delay", "label": "frustrated"}
+{"text": "I feel blue and weary", "label": "sad"}
+{"text": "I am downcast and gloomy", "label": "sad"}
+{"text": "I am curious about how this works", "label": "curious"}
+{"text": "I am overjoyed with the result", "label": "happy"}
+{"text": "I am worried about the mistake", "label": "concern"}
+{"text": "Everything feels difficult and heavy", "label": "sad"}
+{"text": "I am disappointed and tired", "label": "sad"}
+{"text": "I am unhappy about the result", "label": "sad"}
+{"text": "I am depressed and sad", "label": "sad"}
+{"text": "I am relieved and grateful", "label": "relieved"}
+{"text": "I feel sad and lost", "label": "sad"}
+{"text": "Everything feels difficult and heavy", "label": "sad"}
+{"text": "I am inquisitive and interested", "label": "curious"}
+{"text": "I feel joyful and excited", "label": "happy"}
+{"text": "I am sad and disappointed", "label": "sad"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am cheerful and energized", "label": "happy"}
+{"text": "I am grieving and sorrowful", "label": "sad"}
+{"text": "I am worried and watchful", "label": "concern"}
+{"text": "I wonder what happened", "label": "curious"}
+{"text": "I am anxious and nervous", "label": "concern"}
+{"text": "This is the best news", "label": "happy"}
+{"text": "This is wonderful news about the project", "label": "happy"}
+{"text": "I wonder what happened", "label": "curious"}
+{"text": "This is the best news", "label": "happy"}
+{"text": "I am cheerful and energized", "label": "happy"}
+{"text": "I feel lonely and down", "label": "sad"}
+{"text": "I am anxious about the delay", "label": "concern"}
+{"text": "I am annoyed and upset", "label": "frustrated"}
+{"text": "Tell me more about it", "label": "curious"}
+{"text": "I wonder why the news", "label": "curious"}
+{"text": "I feel wretched and unhappy", "label": "sad"}
+{"text": "I am in a great mood", "label": "happy"}
+{"text": "I am heartbroken about the delay", "label": "sad"}
+{"text": "I am anxious about my work", "label": "concern"}
+{"text": "I feel wretched and unhappy", "label": "sad"}
+{"text": "I am frustrated and angry", "label": "frustrated"}
+{"text": "I am despondent about the news", "label": "sad"}
+{"text": "I am unhappy about the outcome", "label": "sad"}
+{"text": "I am relieved and grateful", "label": "relieved"}
+{"text": "I am relieved and grateful", "label": "relieved"}
+{"text": "How does this mechanism function", "label": "curious"}
+{"text": "Everything is going well", "label": "happy"}
+{"text": "I feel at ease now", "label": "relieved"}
+{"text": "I am annoyed and upset", "label": "frustrated"}
+{"text": "I am angry at the delay", "label": "frustrated"}
+{"text": "I feel joyful and excited", "label": "happy"}
+{"text": "I am questioning and exploring", "label": "curious"}
+{"text": "Everything is going well", "label": "happy"}
+{"text": "I am worried and tense", "label": "concern"}
+{"text": "What a fantastic outcome for the situation", "label": "happy"}
+{"text": "This made my day better", "label": "happy"}
+{"text": "I feel better now", "label": "relieved"}
+{"text": "I wonder why the mistake", "label": "curious"}
+{"text": "I feel better now", "label": "relieved"}
+{"text": "I feel uneasy about the delay", "label": "concern"}
+{"text": "I am curious about the details", "label": "curious"}
+{"text": "I am intrigued by the project", "label": "curious"}
+{"text": "I am cheerful and energized", "label": "happy"}
+{"text": "I feel hopeless and empty", "label": "sad"}
+{"text": "I am worried about the news", "label": "concern"}
+{"text": "I feel upbeat and positive", "label": "happy"}
+{"text": "That was a close call but okay", "label": "relieved"}
+{"text": "I am relieved it is finally over", "label": "relieved"}
+{"text": "I am thrilled with the result", "label": "happy"}
+{"text": "I feel blue and weary", "label": "sad"}
+{"text": "I am frustrated and irritated", "label": "frustrated"}
+{"text": "I feel concerned and tense", "label": "concern"}
+{"text": "I am really pleased with the project", "label": "happy"}
+{"text": "Great success today with my work", "label": "happy"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am curious and engaged", "label": "curious"}
+{"text": "Tell me how the exam works", "label": "curious"}
+{"text": "I feel concerned and tense", "label": "concern"}
+{"text": "I am afraid of failing", "label": "concern"}
+{"text": "I am worried and tense", "label": "concern"}
+{"text": "I am angry and frustrated", "label": "frustrated"}
+{"text": "I am depressed and sad", "label": "sad"}
+{"text": "I am upset and frustrated", "label": "frustrated"}
+{"text": "I am struggling lately", "label": "sad"}
+{"text": "I feel concerned about the situation", "label": "concern"}
+{"text": "I feel blue and weary", "label": "sad"}
+{"text": "I am grieving and sorrowful", "label": "sad"}
+{"text": "I am upset and frustrated", "label": "frustrated"}
+{"text": "I am worried and watchful", "label": "concern"}
+{"text": "I am uneasy and worried", "label": "concern"}
+{"text": "I am in a great mood", "label": "happy"}
+{"text": "I am relieved and at peace", "label": "relieved"}
+{"text": "I feel better now", "label": "relieved"}
+{"text": "I feel upbeat and positive", "label": "happy"}
+{"text": "I am in a great mood", "label": "happy"}
+{"text": "I am anxious about the project", "label": "concern"}
+{"text": "This is infuriating and annoying", "label": "frustrated"}
+{"text": "I am curious about the details", "label": "curious"}
+{"text": "I am concerned and watchful", "label": "concern"}
+{"text": "I am frustrated with the outcome", "label": "frustrated"}
+{"text": "I want to know more about the project", "label": "curious"}
+{"text": "I feel uneasy and tense", "label": "concern"}
+{"text": "I am nervous and uneasy", "label": "concern"}
+{"text": "I feel dejected and low", "label": "sad"}
+{"text": "I feel uneasy about my work", "label": "concern"}
+{"text": "I am questioning and exploring", "label": "curious"}
+{"text": "How does this mechanism function", "label": "curious"}
+{"text": "I am irritated and annoyed", "label": "frustrated"}
+{"text": "I am melancholic and sad", "label": "sad"}
+{"text": "I am despondent about the situation", "label": "sad"}
+{"text": "I am heartbroken about the mistake", "label": "sad"}
+{"text": "Thank goodness that ended well", "label": "relieved"}
+{"text": "I am depressed and sad", "label": "sad"}
+{"text": "I feel at ease now", "label": "relieved"}
+{"text": "This is so frustrating", "label": "frustrated"}
+{"text": "Tell me how my work works", "label": "curious"}
+{"text": "I am struggling lately", "label": "sad"}
+{"text": "I am questioning and exploring", "label": "curious"}
+{"text": "I am frustrated with the exam", "label": "frustrated"}
+{"text": "That was a close call but okay", "label": "relieved"}
+{"text": "I wonder why the situation", "label": "curious"}
+{"text": "This makes me a bit fearful", "label": "concern"}
+{"text": "I am frustrated with the delay", "label": "frustrated"}
+{"text": "I am so happy about the situation", "label": "happy"}
+{"text": "What a fantastic outcome for the outcome", "label": "happy"}
+{"text": "I am uneasy and worried", "label": "concern"}
+{"text": "I feel better now", "label": "relieved"}
+{"text": "I feel relieved and relaxed", "label": "relieved"}
+{"text": "I feel dejected and low", "label": "sad"}
+{"text": "I feel uneasy and tense", "label": "concern"}
+{"text": "I am concerned and watchful", "label": "concern"}
+{"text": "I feel upbeat and positive", "label": "happy"}
+{"text": "I am curious about how this works", "label": "curious"}
+{"text": "I am relieved it is finally over", "label": "relieved"}
+{"text": "I feel lonely and down", "label": "sad"}
+{"text": "I am frustrated with the result", "label": "frustrated"}
+{"text": "I am anxious and nervous", "label": "concern"}
+{"text": "I am concerned and watchful", "label": "concern"}
+{"text": "I feel sad and lost", "label": "sad"}
+{"text": "I feel hopeless and empty", "label": "sad"}
+{"text": "I feel miserable and alone", "label": "sad"}
+{"text": "I am fascinated by the mistake", "label": "curious"}
+{"text": "I wonder why the plan", "label": "curious"}
+{"text": "I want to investigate the delay", "label": "curious"}
+{"text": "I am anxious about my work", "label": "concern"}
+{"text": "I wonder what happened", "label": "curious"}
+{"text": "I am irritated and annoyed", "label": "frustrated"}
+{"text": "This makes me a bit fearful", "label": "concern"}
+{"text": "I am thrilled with the result", "label": "happy"}
+{"text": "This is so frustrating", "label": "frustrated"}
+{"text": "I am annoyed and angry", "label": "frustrated"}
+{"text": "I am heartbroken about the news", "label": "sad"}
+{"text": "I am interested in the plan", "label": "curious"}
+{"text": "I am smiling and content", "label": "happy"}
+{"text": "Tell me more about it", "label": "curious"}
+{"text": "I feel lonely and down", "label": "sad"}
+{"text": "I feel at ease now", "label": "relieved"}
+{"text": "I feel apprehensive about the result", "label": "concern"}
+{"text": "I am delighted and grateful", "label": "happy"}
+{"text": "I am worried and anxious", "label": "concern"}
+{"text": "What a fantastic outcome for the situation", "label": "happy"}
+{"text": "That was a close call but okay", "label": "relieved"}
+{"text": "I am irritated by my work", "label": "frustrated"}
+{"text": "I feel amazing right now", "label": "happy"}
+{"text": "I wonder if the situation is true", "label": "curious"}
+{"text": "I am frustrated with the result", "label": "frustrated"}
+{"text": "I feel relieved and okay", "label": "relieved"}
+{"text": "I feel relieved and safe", "label": "relieved"}
+{"text": "I am irritated by the exam", "label": "frustrated"}
+{"text": "I am angry and upset", "label": "frustrated"}
+{"text": "Tell me how the news works", "label": "curious"}
+{"text": "I am inquisitive and interested", "label": "curious"}
+{"text": "I want to investigate the news", "label": "curious"}
+{"text": "Great success today with the situation", "label": "happy"}
+{"text": "I am annoyed and angry", "label": "frustrated"}
+{"text": "I feel miserable and alone", "label": "sad"}
+{"text": "I am relieved and content", "label": "relieved"}
+{"text": "I am delighted and grateful", "label": "happy"}
+{"text": "I am questioning and exploring", "label": "curious"}
+{"text": "I feel concerned and afraid", "label": "concern"}
+{"text": "I want to investigate my work", "label": "curious"}
+{"text": "Great success today with my work", "label": "happy"}
+{"text": "I feel relieved and calm", "label": "relieved"}
+{"text": "I feel dejected and low", "label": "sad"}
+{"text": "I am overjoyed with the outcome", "label": "happy"}
+{"text": "Everything is going well", "label": "happy"}
+{"text": "I want to understand the situation", "label": "curious"}
+{"text": "I am anxious and nervous", "label": "concern"}
+{"text": "I am glad the result is over", "label": "relieved"}
+{"text": "I am curious about the details", "label": "curious"}
+{"text": "I am frustrated and irritated", "label": "frustrated"}
+{"text": "I am worried about the outcome", "label": "concern"}
+{"text": "This makes me angry", "label": "frustrated"}
+{"text": "I am concerned for the outcome", "label": "concern"}
+{"text": "I feel relieved and safe", "label": "relieved"}
+{"text": "I am melancholic and sad", "label": "sad"}
+{"text": "I am eager to learn more", "label": "curious"}
+{"text": "I am relieved it is finally over", "label": "relieved"}
+{"text": "I am frustrated that it broke again", "label": "frustrated"}
+{"text": "I am angry and upset", "label": "frustrated"}
+{"text": "I feel relieved and better", "label": "relieved"}
+{"text": "I am sad and disappointed", "label": "sad"}
+{"text": "I am so happy about the project", "label": "happy"}
+{"text": "I feel relieved and calm", "label": "relieved"}
+{"text": "I am cheerful and energized", "label": "happy"}
+{"text": "I am delighted and grateful", "label": "happy"}
+{"text": "I feel calm and relieved", "label": "relieved"}
+{"text": "I am relieved and content", "label": "relieved"}
+{"text": "I am angry and frustrated", "label": "frustrated"}
+{"text": "I want to explore this idea", "label": "curious"}
+{"text": "This makes me angry", "label": "frustrated"}
+{"text": "I feel relieved and better", "label": "relieved"}
+{"text": "I am relieved and happy", "label": "relieved"}
+{"text": "I feel sorrowful and tired", "label": "sad"}
+{"text": "I am inquisitive and interested", "label": "curious"}
+{"text": "I am overjoyed with the result", "label": "happy"}
+{"text": "I feel joyful and excited", "label": "happy"}
+{"text": "I am in a great mood", "label": "happy"}
+{"text": "I am glad and relieved", "label": "relieved"}
+{"text": "I am frustrated and angry", "label": "frustrated"}
+{"text": "Everything is going well", "label": "happy"}
+{"text": "Tell me how the delay works", "label": "curious"}
+{"text": "I am angry and upset", "label": "frustrated"}
+{"text": "I feel relieved and better", "label": "relieved"}
+{"text": "I am despondent about the mistake", "label": "sad"}
+{"text": "This is infuriating and annoying", "label": "frustrated"}
+{"text": "I feel blue and weary", "label": "sad"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "I am relieved and happy", "label": "relieved"}
+{"text": "I am sad and disappointed", "label": "sad"}
+{"text": "I am curious and engaged", "label": "curious"}
+{"text": "Everything feels difficult and heavy", "label": "sad"}
+{"text": "I feel apprehensive about the exam", "label": "concern"}
+{"text": "I am angry at the delay", "label": "frustrated"}
+{"text": "I am smiling and content", "label": "happy"}
+{"text": "I feel sad and lost", "label": "sad"}
+{"text": "This made my day better", "label": "happy"}
+{"text": "I am frustrated with the result", "label": "frustrated"}
+{"text": "I am upset about the mistake", "label": "frustrated"}
+{"text": "I feel relieved and safe", "label": "relieved"}
+{"text": "I feel uneasy about my work", "label": "concern"}
+{"text": "I am angry and frustrated", "label": "frustrated"}
+{"text": "I am overjoyed with the mistake", "label": "happy"}
+{"text": "I am overjoyed with the result", "label": "happy"}
+{"text": "I feel forlorn and lost", "label": "sad"}
+{"text": "Why does this keep failing", "label": "frustrated"}
+{"text": "I feel relieved and better", "label": "relieved"}
+{"text": "I want to understand the mistake", "label": "curious"}
+{"text": "I am annoyed and angry", "label": "frustrated"}
+{"text": "I am grieving and sorrowful", "label": "sad"}
+{"text": "I want to explore this idea", "label": "curious"}
+{"text": "I feel relieved and okay", "label": "relieved"}
+{"text": "I wonder why the situation", "label": "curious"}
+{"text": "I am inquisitive and interested", "label": "curious"}
+{"text": "I am relieved about my work", "label": "relieved"}
+{"text": "I feel relieved and relaxed", "label": "relieved"}
+{"text": "I am anxious about the result", "label": "concern"}
+{"text": "I am delighted and grateful", "label": "happy"}
+{"text": "I feel upbeat and positive", "label": "happy"}
+{"text": "I am eager to learn more", "label": "curious"}
+{"text": "I am smiling and content", "label": "happy"}
+{"text": "I am so glad about the exam", "label": "happy"}
+{"text": "I finally my work and feel great", "label": "happy"}
+{"text": "I am intrigued by the result", "label": "curious"}
+{"text": "I have a question about the situation", "label": "curious"}
+{"text": "I am thrilled with the result", "label": "happy"}
+{"text": "I feel apprehensive about the exam", "label": "concern"}
+{"text": "I feel upbeat and positive", "label": "happy"}
+{"text": "I am eager to learn more", "label": "curious"}
+{"text": "I am curious and engaged", "label": "curious"}
+{"text": "I feel lonely and down", "label": "sad"}
+{"text": "This is so frustrating", "label": "frustrated"}
+{"text": "I am relieved about the news", "label": "relieved"}
+{"text": "I am annoyed and upset", "label": "frustrated"}
+{"text": "I am uneasy and worried", "label": "concern"}
+{"text": "This is so annoying and irritating", "label": "frustrated"}
+{"text": "This makes me a bit fearful", "label": "concern"}
+{"text": "Tell me more about it", "label": "curious"}
+{"text": "I feel relieved and better", "label": "relieved"}
+{"text": "I want to explore this idea", "label": "curious"}
+{"text": "This is infuriating and annoying", "label": "frustrated"}
+{"text": "I feel at ease now", "label": "relieved"}
+{"text": "I want to know more about the mistake", "label": "curious"}
+{"text": "I am downcast and gloomy", "label": "sad"}
+{"text": "I feel relieved and relaxed", "label": "relieved"}
+{"text": "I am upset and frustrated", "label": "frustrated"}
+{"text": "I feel hopeless and empty", "label": "sad"}
+{"text": "I am heartbroken about the project", "label": "sad"}
+{"text": "I am relieved and happy", "label": "relieved"}
+{"text": "I am so glad about the mistake", "label": "happy"}
+{"text": "I am frustrated and irritated", "label": "frustrated"}
+{"text": "I feel blessed and happy", "label": "happy"}
+{"text": "I am cheerful and energized", "label": "happy"}
+{"text": "I feel relieved and safe", "label": "relieved"}
+{"text": "I want to understand the exam", "label": "curious"}
+{"text": "This made my day better", "label": "happy"}
+{"text": "I want to understand the mistake", "label": "curious"}
+{"text": "I am nervous and uneasy", "label": "concern"}

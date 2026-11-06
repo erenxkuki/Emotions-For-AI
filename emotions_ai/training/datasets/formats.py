@@ -48,3 +48,8 @@ def load_jsonl(path: str, cls=EmotionTrainingSample) -> list[Any]:
             except Exception:  # noqa: BLE001
                 out.append(obj)
     return out
+
+
+def load_emotion_db(path: str = "data/emotions_db.jsonl"):
+    """Load the bundled emotion database (list of {text, label})."""
+    return load_jsonl(path)
